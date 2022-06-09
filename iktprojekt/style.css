@@ -1,0 +1,46 @@
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+
+}
+
+.header-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/headerimage.jpg");
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding-top: 20px;
+}
+
+.content-location, .content-climate, .content-island, .content-mountain, .content-lake{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+.content-1, .content-2, .content-3, .content-4, .content-5 {
+    font-size: 25px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+.center-1, .center-2, .center-3, .center-4, .center-5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: 500px;
+}
